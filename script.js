@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Text Data configuration
     const welcomePhrase = "Hi Saumya...";
-    const birthdayLetter = "Happy birthday saumya and i wish you each and everthing in your life which you want and honestly please be as it is your awesome ,perfect,unique and bestest person i ever met in life and haan yrr sorry i stole you photo bas and i wish you always be happy because your smile on your face has a way of making everthing feel a liitle brighter✨❤️";
+    const birthdayLetter = "Happy birthday saumya 🎂🎂 and i wish you get each and everthing in your life which you want and honestly please be as it is your awesome ,perfect,unique and bestest person i ever met in my life and haan yrr sorry i stole you photo bas yhi mai batane wala tha 😜😂 and i wish you always be happy please keep smiling it suits you and smile on your face always make the things easier and at last tum bahut achi ho ✨❤️";
 
     // Step 1: Simulate Fake Loading Screen (2.5 seconds)
     setTimeout(() => {

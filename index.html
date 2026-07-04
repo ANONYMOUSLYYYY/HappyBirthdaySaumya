@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Saumya!</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Canvas Confetti Library -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+
+    <!-- 1. Loading Screen -->
+    <div id="loading-screen" class="screen active">
+        <div class="loader">
+            <div class="heart-loader">❤️</div>
+            <p>Loading magic...</p>
+        </div>
+    </div>
+
+    <!-- 2. Typewriter Welcome Screen -->
+    <div id="welcome-screen" class="screen">
+        <h1 id="typewriter-text"></h1>
+    </div>
+
+    <!-- 3. Gift Box Screen -->
+    <div id="gift-screen" class="screen">
+        <p class="instruction">Tap the box to open your gift! 🎁</p>
+        <div class="gift-container" id="gift-box">
+            <div class="gift-lid"></div>
+            <div class="gift-ribbon"></div>
+            <div class="gift-main"></div>
+        </div>
+    </div>
+
+    <!-- 4. Main Celebration Screen (Photo, Wish, Letter, Hearts) -->
+    <div id="celebration-screen" class="screen">
+        <div class="celebration-container">
+            
+            <!-- Happy Birthday Headline -->
+            <h1 class="birthday-title hidden" id="birthday-heading">✨ Happy Birthday Saumya! ✨</h1>
+            
+            <!-- Photo Reveal Container -->
+            <div class="photo-frame hidden" id="photo-frame">
+                <img src="images/profile.jpg" alt="Saumya" id="birthday-pic">
+            </div>
+
+            <!-- Typing Letter Box -->
+            <div class="letter-box hidden" id="letter-box">
+                <p id="letter-text"></p>
+            </div>
+
+            <!-- Final Heartfelt Message -->
+            <div class="final-msg hidden" id="final-message">
+                <p>Have a wonderful year ahead! 💖✨</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Container for floating hearts background -->
+    <div id="hearts-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
